@@ -3,6 +3,8 @@
 This is a fast O(n) linear time CPU implementation of the famous connected component labelling problem. The algorithm implemented here
 has a O(n) memory complexity; n being the number of elements in the input map.
 
+NOTE: 8-way connectivity has been assumed here.
+
 For example, in problems where we have images like these -
 ![Alt text](http://members.cbio.mines-paristech.fr/~nvaroquaux/formations/scipy-lecture-notes/_images/plot_synthetic_data_1.png "Images with connected regions")
 
